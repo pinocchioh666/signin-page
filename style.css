@@ -183,6 +183,7 @@ form p {
 }
 
 .logo{
+    opacity: 0;
     display: inline-block;
     border-radius: 20px;
     width: 400px;
@@ -192,6 +193,7 @@ form p {
     left:70%;
     transform: translate(-50%, -50%);
     z-index: 1;
+    animation: fadein 4s forwards;
 }
 .logo i{
     color: #fff;
@@ -204,7 +206,6 @@ form p {
 }
 
 .logo:after {
-    opacity: 0;
     content: '';
     position: absolute;
     top: 0;
@@ -215,7 +216,6 @@ form p {
     background:rgb(255,255,255,0.8);
     background-attachment: fixed;
     filter: blur(20px);
-    animation: fadein 4s forwards;
 }
 
 
