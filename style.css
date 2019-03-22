@@ -183,7 +183,6 @@ form p {
 }
 
 .logo{
-    opacity: 0;
     display: inline-block;
     border-radius: 20px;
     width: 400px;
@@ -193,7 +192,6 @@ form p {
     left:70%;
     transform: translate(-50%, -50%);
     z-index: 1;
-    animation: fadein 4s forwards;
 }
 .logo i{
     color: #fff;
@@ -245,14 +243,6 @@ form p {
     }
     100%{
         transform: translateY(0px);
-        opacity: 1;
-    }
-}
-@keyframes fadein{
-    0%{
-        opacity: 0;
-    }
-    100%{
         opacity: 1;
     }
 }
